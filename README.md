@@ -23,5 +23,6 @@ After that you should install wsl from the link below
 ## Run the project
 the only thing you have to do is to navigate to the project directory after cloning it then run the command 
 - docker compose up 
+
 this command will take care of every thing and making the image form scratch then running the server allowing you to access the running application throw
 - http://localhost:8080/ 
