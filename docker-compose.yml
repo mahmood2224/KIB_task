@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  flutter-master-web:
+    image: flutter_docker
+    ports:
+      - 8080:5000
+    build:
+      dockerfile: ./dockerfile
+      context: .
+      args:
+        - FLUTTER_CHANNEL=master
+    container_name : my_app
