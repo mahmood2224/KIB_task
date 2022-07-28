@@ -7,7 +7,7 @@ I used here
 
 this project is completing flutter task to show up my coding skills
 
-### docker config 
+## Docker config 
 to run this project and avoiding to install flutter sdk and init it i made docker file and image to do that instead
 you should just download docker of the platform you working on (window, mac , links)
 - [docker download for windows](https://docs.docker.com/desktop/install/windows-install/)
@@ -20,3 +20,8 @@ note that if you run docker on windows you should allow linux sub system by runn
 After that you should install wsl from the link below 
 - [wsl install and update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
+## Run the project
+the only thing you have to do is to navigate to the project directory after cloning it then run the command 
+- docker compose up 
+this command will take care of every thing and making the image form scratch then running the server allowing you to access the running application throw
+- http://localhost:8080/ 
