@@ -6,7 +6,7 @@ services:
     ports:
       - 8080:5000
     build:
-      dockerfile: ./dockerfile
+      dockerfile: ./Dockerfile
       context: .
       args:
         - FLUTTER_CHANNEL=master

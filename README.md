@@ -1,16 +1,22 @@
-# test_docker
-
-A new Flutter project.
+# KIP_task
+this is flutter web project that implement simple crud operation showing layers of the code 
+I used here 
+- [sqflite as database] (https://pub.dev/packages/sqflite)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+this project is completing flutter task to show up my coding skills
 
-A few resources to get you started if this is your first Flutter project:
+### docker config 
+to run this project and avoiding to install flutter sdk and init it i made docker file and image to do that instead
+you should just download docker of the platform you working on (window, mac , links)
+-[docker download for windows](https://docs.docker.com/desktop/install/windows-install/)
+-[docker download for mac](https://docs.docker.com/desktop/install/mac-install/)
+-[docker download for linux](https://docs.docker.com/desktop/install/linux-install/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+note that if you run docker on windows you should allow linux sub system by running this command in windows power shell (you should run power shill as administrator)
+-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After that you should install wsl from the link below 
+-[wsl install and update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
