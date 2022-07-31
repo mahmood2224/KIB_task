@@ -1,7 +1,8 @@
 # KIP_task
 this is flutter web project that implement simple crud operation showing layers of the code 
 I used here 
-- [sqflite as database](https://pub.dev/packages/sqflite)
+- [laravel backend i created](https://github.com/mahmood2224/KIB_task_backend)
+- [postman collection](https://documenter.getpostman.com/view/5133371/UzdzTk2E)
 
 ## Getting Started
 

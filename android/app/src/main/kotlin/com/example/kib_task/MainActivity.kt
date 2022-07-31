@@ -1,4 +1,4 @@
-package com.example.test_docker
+package com.example.kib_task
 
 import io.flutter.embedding.android.FlutterActivity
 
