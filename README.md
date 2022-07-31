@@ -20,6 +20,7 @@ note that if you run docker on windows you should allow linux sub system by runn
 
 After that you should install wsl from the link below 
 - [wsl install and update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+- don't forget to restart the device after installing this app
 
 ## Run the project
 the only thing you have to do is to navigate to the project directory after cloning it then run the command 
